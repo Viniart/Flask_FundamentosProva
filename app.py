@@ -32,6 +32,7 @@ def deletarTransacao():
 
     return make_response(200)
 
+# Rota de teste para pegar a hora atual, para utilizar no POST
 @app.route("/teste", methods=["GET"])
 def teste():
      tempoAtual = datetime.now()
